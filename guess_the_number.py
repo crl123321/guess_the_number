@@ -26,7 +26,6 @@ def checker(user_guess, life_points):
 print(art.logo)
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
-print(to_guess)
 level = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
 
 lives = difficulty[level]
